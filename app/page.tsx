@@ -1,6 +1,7 @@
 // app/page.tsx
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import StatsSection from "./components/StatsSection";
 import AboutSection from "./components/AboutSection";
 import AudioSection from "./components/AudioSection";
 import GaleriaSection from "./components/GaleriaSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutSection />
+      <StatsSection />
       <AudioSection />
       <GaleriaSection />
       <PlatosSection />
