@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Proyecto Web Académico – Aplicación Multimedia
 
-## Getting Started
+Este proyecto corresponde a una aplicación web desarrollada con **Next.js**, como parte de un trabajo académico.  
+La aplicación demuestra el uso de tecnologías modernas para el desarrollo de interfaces web, integrando diseño, navegación y contenido multimedia.
 
-First, run the development server:
+---
+
+## 📌 Descripción General
+
+La aplicación web permite:
+
+- Visualizar información de manera interactiva.
+- Navegar entre secciones de la página.
+- Mostrar contenido multimedia (imágenes, texto, componentes dinámicos).
+- Aplicar conceptos de desarrollo frontend moderno.
+- Demostrar el uso práctico del framework Next.js.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- Next.js
+- React
+- TypeScript
+- Node.js
+- CSS / Tailwind CSS
+
+---
+
+## 🚀 Instrucciones para Ejecutar el Proyecto
+
+Para que el docente pueda ejecutar y revisar el proyecto, siga los siguientes pasos:
+
+### 1️⃣ Descargar o clonar el proyecto
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+```
+
+---
+
+### 2️⃣ Instalar dependencias
+
+```bash
+npm install
+```
+
+---
+
+### 3️⃣ Ejecutar el servidor de desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4️⃣ Abrir en el navegador
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abrir en el navegador:
 
-## Learn More
+http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Estructura del Proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- app/page.tsx → Página principal
+- app/ → Rutas y componentes
+- public/ → Recursos estáticos
+- styles/ → Estilos globales
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Objetivo Académico
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto fue desarrollado con fines educativos para:
+
+- Implementar una aplicación multimedia.
+- Presentar un proyecto funcional como evidencia académica.
+
+---
+
+## 👨‍🎓 Información del Estudiante
+
+Nombre del estudiante: Andres Villacis  
+Asignatura: Interfaces y Multimedia  
+Fecha: Enero 2026  
+
+---
