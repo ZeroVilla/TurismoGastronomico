@@ -1,7 +1,10 @@
+import Reveal from "./Reveal"
+
 // app/components/ContactoSection.tsx
 export default function ContactoSection() {
   return (
     <section id="contacto" className="py-24 bg-[#0b0f1a]">
+      <Reveal>
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-amber-400 mb-6">
           📩 Contáctanos
@@ -31,6 +34,7 @@ export default function ContactoSection() {
           </button>
         </form>
       </div>
+      </Reveal>
     </section>
   );
 }

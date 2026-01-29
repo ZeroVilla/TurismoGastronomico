@@ -1,7 +1,10 @@
+import Reveal from "./Reveal";
+
 // app/components/AudioSection.tsx
 export default function AudioSection() {
   return (
     <section id="audio" className="py-24 bg-[#0b0f1a]">
+      <Reveal>
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-teal-600 mb-6">
           🎧 Audio Guía Gastronómica
@@ -15,6 +18,7 @@ export default function AudioSection() {
           <source src="/audio/narracion-quito.mp3" type="audio/mpeg" />
         </audio>
       </div>
+      </Reveal>
     </section>
   );
 }

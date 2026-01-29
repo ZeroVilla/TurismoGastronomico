@@ -1,7 +1,10 @@
+import Reveal from "./Reveal";
+
 // app/components/VideoSection.tsx
 export default function VideoSection() {
   return (
     <section id="video" className="py-24 bg-[#0b0f1a]">
+      <Reveal>
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-teal-600 mb-6">
           🎬 Ruta Gastronómica de Quito
@@ -15,6 +18,7 @@ export default function VideoSection() {
           <source src="/video/quito-gastronomia.mp4" type="video/mp4" />
         </video>
       </div>
+      </Reveal>
     </section>
   );
 }
