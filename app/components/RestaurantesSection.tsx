@@ -15,7 +15,7 @@ const restaurantes = [
   {
     name: "El Ventanal",
     desc: "Restaurante con vista panorámica y gastronomía ecuatoriana.",
-    address: "Panecillo, Quito",
+    address: "Carchi &, Quito 170402",
     searchUrl:
       "https://www.google.com/search?q=El+Ventanal+Quito+direcci%C3%B3n",
   },
