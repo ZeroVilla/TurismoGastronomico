@@ -34,7 +34,7 @@ Para que el docente pueda ejecutar y revisar el proyecto, siga los siguientes pa
 ### 1️⃣ Descargar o clonar el proyecto
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone (https://github.com/ZeroVilla/TurismoGastronomico.git)
 ```
 
 ---
